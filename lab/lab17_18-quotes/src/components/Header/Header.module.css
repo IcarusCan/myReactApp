@@ -1,0 +1,34 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a817b;
+  color: #fff;
+}
+
+.title h1 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+
+.navList a {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  margin: 0 8px;
+  text-decoration: none;
+  color: #fff;
+}
+
+a.active,
+a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}

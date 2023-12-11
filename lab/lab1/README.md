@@ -1,0 +1,6 @@
+- Cài đặt Visual Studio Code
+- Cài đặt các Extension hỗ trợ
+- Lựa chọn Command Line Shell
+- Cài đặt NodeJS
+- Tạo và chạy một ReactJS Project: npx create-react-app lab1
+- npm start
