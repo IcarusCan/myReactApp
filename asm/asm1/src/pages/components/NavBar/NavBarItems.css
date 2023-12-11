@@ -1,0 +1,35 @@
+.navbar_items {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 2.4rem;
+  padding-bottom: 1.2rem;
+}
+
+.btn-item {
+  font-size: 1.4rem;
+  color: var(--light-color);
+  padding: 10px 14px;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  background-color: var(--primary-color);
+}
+
+.btn-item:hover {
+  cursor: pointer;
+}
+
+.btn-item:hover:not(.active) {
+  opacity: 0.88;
+  background-color: var(--foreground-color);
+}
+
+.btn-item span {
+  padding-left: 6px;
+}
+
+.btn-item.active {
+  opacity: 0.95;
+  border-color: var(--light-color);
+}

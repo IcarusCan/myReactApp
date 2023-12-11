@@ -1,0 +1,77 @@
+form {
+  margin: 0 auto;
+  max-width: 50%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 12px;
+  border-bottom: 2px solid rgb(0, 164, 255);
+  margin: 12px 0;
+}
+
+.searchBox input {
+  width: 95%;
+  border: transparent;
+  font-size: 1.6rem;
+}
+
+.searchBox input:focus-visible {
+  outline: transparent;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.searchBox label {
+  width: 20px;
+  height: 20px;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+}
+
+.control {
+  padding: 8px 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.control button {
+  padding: 10px 16px;
+  border: transparent;
+  margin: 0 12px;
+  text-transform: uppercase;
+}
+
+.control button:first-child {
+  background-color: transparent;
+}
+
+.control button:first-child:hover {
+  background-color: #a3a3a3;
+}
+
+.control button:last-child {
+  background-color: rgb(0, 164, 255);
+  color: #fff;
+}
+
+.control button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.error-text {
+  text-align: center;
+  font-size: 16px;
+  color: #b40e0e;
+}

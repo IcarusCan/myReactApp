@@ -1,0 +1,114 @@
+.detail {
+  width: 100%;
+  margin: 24px 0;
+}
+
+.detail-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.detail-header-info h1,
+.header-distance,
+.header-price,
+.header-address {
+  margin-bottom: 8px;
+}
+
+.header-address {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.header-distance,
+.header-price {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.header-distance {
+  color: var(--foreground-color);
+}
+
+.header-price {
+  color: var(--success-color);
+}
+
+.detail-pic {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6px 6px;
+  margin-bottom: 32px;
+}
+
+.detail-more {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.detail-description {
+  width: 75%;
+}
+
+.detail-description h2 {
+  margin-bottom: 18px;
+}
+
+.detail-description p {
+  text-align: left;
+  padding-right: 16px;
+}
+
+.reserve-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 25%;
+  background-color: #ecf6ff;
+  border-radius: 4px;
+  padding: 16px 16px;
+}
+
+.reserve-box h3 {
+  font-size: 1.6rem;
+  color: var(--gray-color);
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.reserve-box p {
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.nine-night {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.nine-night span {
+  font-weight: 700;
+}
+
+.reserve-box .btn-reserve {
+  width: 100%;
+}
+
+.btn.btn-reserve {
+  padding: 8px 16px;
+  background-color: var(--foreground-color);
+  font-weight: 500;
+}

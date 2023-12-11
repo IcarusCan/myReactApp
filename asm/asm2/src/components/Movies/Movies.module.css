@@ -1,0 +1,58 @@
+.movies-container {
+  color: #fff;
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1.5vw;
+  padding: 0 1%;
+}
+
+.movies:first-child {
+  margin: 0 auto;
+}
+
+.movies-container .movies:last-child {
+  margin-bottom: 2.5vw;
+}
+
+.movies h2 {
+  font-size: 2vw;
+  margin-top: 1vw;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* max-width: 540px */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* max-width: 720px */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* max-width: 960px */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* max-width: 1140px */
+  .movies h2 {
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1366px) {
+  /* max-width: 1140px */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1536px) {
+  /* max-width: 1140px */
+}

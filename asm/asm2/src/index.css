@@ -1,0 +1,75 @@
+* {
+  /* css reset */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.5vw;
+  background-color: #141414;
+}
+
+body {
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.app {
+  width: 100%;
+}
+
+.main,
+.search {
+  min-height: 1000px;
+  position: relative;
+  z-index: 0;
+}
+
+.search {
+  margin-top: 100px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* max-width: 540px */
+  html {
+    font-size: 1vw;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* max-width: 720px */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* max-width: 960px */
+  html {
+    font-size: 0.85vw;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* max-width: 1140px */
+  html {
+    font-size: 0.75vw;
+  }
+}

@@ -1,0 +1,142 @@
+.movie-detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 1vw;
+}
+
+.info {
+  width: 45%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 6px;
+  margin-bottom: 4px;
+}
+
+.header h2 {
+  font-size: 2.4vw;
+}
+
+.voting {
+  font-size: 1.7vw;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.overview {
+  font-size: 1.6vw;
+  letter-spacing: 0.5px;
+}
+
+.video {
+  width: 50%;
+}
+
+.video iframe {
+  width: 100%;
+  height: 15vh;
+  border: transparent;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* max-width: 540px */
+  .video iframe {
+    height: 20vh;
+  }
+
+  .overview {
+    letter-spacing: 0.2px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* max-width: 720px */
+  .video iframe {
+    height: 25vh;
+  }
+
+  .overview {
+    letter-spacing: 0.1px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* max-width: 960px */
+  .header {
+    margin-bottom: 6px;
+  }
+
+  .header h2 {
+    padding-bottom: 12px;
+  }
+
+  .voting {
+    font-size: 1.5vw;
+  }
+
+  .overview {
+    font-size: 1.4vw;
+    letter-spacing: normal;
+  }
+
+  .video iframe {
+    height: 30vh;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* max-width: 1140px */
+  .header {
+    margin-bottom: 16px;
+  }
+
+  .header h2 {
+    font-size: 2vw;
+  }
+
+  .voting {
+    font-size: 1.4vw;
+    margin-bottom: 12px;
+  }
+
+  .overview {
+    font-size: 1.3vw;
+  }
+
+  .video iframe {
+    height: 35vh;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1366px) {
+  /* max-width: 1140px */
+  .video iframe {
+    height: 40vh;
+  }
+
+  .voting {
+    font-size: 1.2vw;
+  }
+
+  .overview {
+    font-size: 1.1vw;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1536px) {
+  /* max-width: 1140px */
+  .video iframe {
+    height: 45vh;
+  }
+}

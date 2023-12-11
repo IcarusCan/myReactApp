@@ -1,0 +1,110 @@
+.bodycontent {
+  width: 100%;
+}
+
+.bodycontent-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  color: var(--dark-color);
+}
+
+.destination-city,
+.destination-type,
+.destination-hotel {
+  margin-bottom: 36px;
+}
+
+.destination-city,
+.property-list,
+.hotel-list {
+  display: flex;
+  gap: 24px;
+}
+
+.city-info {
+  position: relative;
+}
+
+.city-describe {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  color: var(--light-color);
+  font-weight: 700;
+}
+
+.city-describe h3 {
+  font-size: 3.2rem;
+}
+
+.city-describe p {
+  font-size: 1.6rem;
+}
+
+.destination-type h2,
+.destination-hotel h2 {
+  margin-bottom: 18px;
+}
+
+.property-item,
+.hotel-item {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.property-item img,
+.hotel-item img {
+  height: 70%;
+}
+
+.property-describe,
+.hotel-describe {
+  width: 100%;
+}
+
+.property-describe h3,
+.hotel-describe h3 {
+  font-size: 1.8rem;
+  margin-top: 8px;
+}
+
+.property-describe p {
+  margin-top: 2px;
+}
+
+.hotel-describe p {
+  margin-top: 12px;
+}
+
+.hotel-score {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hotel-city {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.hotel-price {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.rate {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  padding: 2px 4px;
+  font-weight: 500;
+}
+
+.rate_text {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
